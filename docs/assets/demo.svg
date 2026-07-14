@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="648" viewBox="0 0 920 648" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14">
+  <!-- Terminal transcript of real runs of `chatcarve detect`, `parse` and
+       `stats` against examples/family-trip.txt. Text is copied verbatim
+       from actual executions (JSONL lines truncated to fit). -->
+  <rect width="920" height="648" rx="10" fill="#0d1117"/>
+  <rect width="920" height="34" rx="10" fill="#161b22"/>
+  <rect y="20" width="920" height="14" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="17" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="17" r="6" fill="#28c840"/>
+  <text x="460" y="22" fill="#8b949e" text-anchor="middle" font-size="12">chatcarve — carve a WhatsApp export into JSONL + Markdown</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> chatcarve detect examples/family-trip.txt</text>
+    <text x="24" y="86">platform:       <tspan fill="#79c0ff">ios</tspan></text>
+    <text x="24" y="110">date order:     <tspan fill="#79c0ff">dmy (day-over-12)</tspan></text>
+    <text x="24" y="134">clock:          24-hour</text>
+    <text x="24" y="158">seconds:        yes</text>
+    <text x="24" y="182">messages:       11</text>
+    <text x="24" y="222"><tspan fill="#7ee787">$</tspan> chatcarve parse examples/family-trip.txt | head -4</text>
+    <text x="24" y="246" fill="#8b949e">{"author": null, ..., "kind": "system", "system": {"event": "e2e_encrypted"}, ...}</text>
+    <text x="24" y="270" fill="#8b949e">{"author": null, ..., "system": {"event": "group_created"}, "text": "Nan created ...}</text>
+    <text x="24" y="294" fill="#8b949e">{"author": null, ..., "system": {"event": "member_added"}, "text": "Nan added Dev", ...}</text>
+    <text x="24" y="318" fill="#8b949e">{"author": "Dev", "kind": "text", "text": "Right, who's driving?", "timestamp": ...}</text>
+    <text x="24" y="358"><tspan fill="#7ee787">$</tspan> chatcarve stats examples/family-trip.txt</text>
+    <text x="24" y="382">messages:  11</text>
+    <text x="24" y="406">kinds:     <tspan fill="#d29922">4 text, 2 media, 4 system, 1 deleted</tspan></text>
+    <text x="24" y="430">range:     2024-08-30T10:12:45 .. 2024-08-31T18:22:05</text>
+    <text x="24" y="454">authors:</text>
+    <text x="24" y="478">  Dev  4</text>
+    <text x="24" y="502">  Nan  3</text>
+    <text x="24" y="542"><tspan fill="#7ee787">$</tspan> chatcarve parse tests/corpus/ko-kr-ios.txt | head -1  <tspan fill="#8b949e"># 오후 11:58 → 23:58</tspan></text>
+    <text x="24" y="566" fill="#8b949e">{..., "raw_timestamp": "2023. 12. 31. 오후 11:58:02", "timestamp": "2023-12-31T23:58:02"}</text>
+    <text x="24" y="606"><tspan fill="#7ee787">$</tspan> bash scripts/smoke.sh  <tspan fill="#8b949e"># end-to-end: detect, parse, stats, exit codes</tspan></text>
+    <text x="24" y="630" fill="#7ee787">SMOKE OK</text>
+  </g>
+</svg>

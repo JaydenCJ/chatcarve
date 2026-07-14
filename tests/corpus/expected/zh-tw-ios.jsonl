@@ -1,0 +1,5 @@
+{"author": null, "index": 0, "kind": "system", "line": 1, "media": null, "raw_timestamp": "2024/2/9 下午8:01:15", "system": {"event": "e2e_encrypted"}, "text": "訊息和通話都受到端對端加密。此對話以外的任何人，即使是WhatsApp，都無法讀取或聆聽。", "timestamp": "2024-02-09T20:01:15"}
+{"author": "阿嬤", "index": 1, "kind": "text", "line": 2, "media": null, "raw_timestamp": "2024/2/9 下午8:02:40", "system": null, "text": "除夕快樂！記得回來吃年夜飯", "timestamp": "2024-02-09T20:02:40"}
+{"author": "小明", "index": 2, "kind": "media", "line": 3, "media": {"filename": null, "media_type": "image", "omitted": true}, "raw_timestamp": "2024/2/9 下午8:05:22", "system": null, "text": "圖片已省略", "timestamp": "2024-02-09T20:05:22"}
+{"author": "小明", "index": 3, "kind": "text", "line": 4, "media": null, "raw_timestamp": "2024/2/9 下午8:06:01", "system": null, "text": "我們八點到", "timestamp": "2024-02-09T20:06:01"}
+{"author": null, "index": 4, "kind": "system", "line": 5, "media": null, "raw_timestamp": "2024/2/10 上午9:30:44", "system": {"event": "missed_voice_call"}, "text": "未接語音通話", "timestamp": "2024-02-10T09:30:44"}
