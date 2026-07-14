@@ -9,7 +9,7 @@ description = "Parse WhatsApp chat exports into clean JSONL and Markdown, media 
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "JaydenCJ" }]
+authors = [{ name = "JaydenCJ", email = "aisingioro.kiyon@gmail.com" }]
 keywords = ["whatsapp", "chat-export", "jsonl", "markdown", "parser", "archive", "i18n"]
 classifiers = [
     "Development Status :: 3 - Alpha",
